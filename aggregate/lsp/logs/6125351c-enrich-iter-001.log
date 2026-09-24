@@ -1,0 +1,16 @@
+[2026-09-24T11:28:13Z] === ENRICH ITERATION 1 START | repo=repolex-ai/git-lex-kit-base sha=6125351c ===
+[2026-09-24T11:28:13Z] [iter=1] PHASE START: enrich repo=repolex-ai/git-lex-kit-base sha=6125351c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/6125351c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/6125351c9f0787d31a4290c6ac7ffe2ac005fa56.nq.gz
+[2026-09-24T11:28:13Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-24T11:28:15Z] [iter=1] AST store loaded triples=152462 load_secs=2 mem_mb=302 MB
+[2026-09-24T11:28:15Z] [iter=1] Step 2: Finding LSP targets mem_mb=302 MB
+[2026-09-24T11:28:15Z] [iter=1] LSP targets found call_sites=1223 imports=4 extends=0 implements=0 secs=0
+[2026-09-24T11:28:15Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=302 MB
+[2026-09-24T11:28:15Z] [iter=1] Position index built positions=10324 nodes_with_types=12190 secs=0 mem_mb=302 MB
+[2026-09-24T11:28:15Z] [iter=1] Step 3: Starting LSP resolution mem_mb=302 MB already_completed_types=[] already_completed_files=0
+[2026-09-24T11:28:15Z] [iter=1] Resolving target type target_type=call_site count=1223
+[2026-09-24T11:28:35Z] [iter=1] Target type resolved target_type=call_site resolved=633 errors=229 secs=20 mem_mb=302 MB
+[2026-09-24T11:28:35Z] [iter=1] Resolving target type target_type=import_statement count=4
+[2026-09-24T11:28:36Z] [iter=1] Target type resolved target_type=import_statement resolved=4 errors=0 secs=1 mem_mb=302 MB
+[2026-09-24T11:28:39Z] [iter=1] Step 5: Writing final enrichment file triples=11879
+[2026-09-24T11:28:39Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/6125351c9f0787d31a4290c6ac7ffe2ac005fa56.nq.gz size_kb=176
+[2026-09-24T11:28:39Z] [iter=1] PHASE END: enrich elapsed_s=26 elapsed_min=0.4 total_triples=11879

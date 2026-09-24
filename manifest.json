@@ -19,6 +19,21 @@
       ],
       "ast": [
         "aggregate/ast/6125351c9f0787d31a4290c6ac7ffe2ac005fa56/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/6125351c9f0787d31a4290c6ac7ffe2ac005fa56.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "rdflib",
+          "ecosystem": "PYPI",
+          "version": "7.6.0",
+          "githubOrg": "RDFLib",
+          "githubRepo": "rdflib",
+          "githubCommit": "8b32146a0f9cb748c2068662e50d02b42fc86dfd",
+          "githubTag": "7.6.0",
+          "githubUrl": "https://github.com/RDFLib/rdflib",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/rdflib/graph.py"
+        }
       ]
     }
   ],
