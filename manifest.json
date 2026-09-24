@@ -1,0 +1,26 @@
+{
+  "manifest_version": "1.0",
+  "org": "repolex-ai",
+  "repo": "git-lex-kit-base",
+  "versions": [
+    {
+      "commit": "6125351c9f0787d31a4290c6ac7ffe2ac005fa56",
+      "parsed_at": "2026-09-24T08:48:21.738398+00:00",
+      "tag": "main",
+      "filetree": "filetree/6125351c9f0787d31a4290c6ac7ffe2ac005fa56.nq.gz",
+      "blobs": [
+        "blob/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz",
+        "blob/dbac915198fd4b4bfecc24967dc9f4b02350b7f3.nq.gz",
+        "blob/57c7b91883fad28164c258a97f5f7c242d73d5a1.nq.gz",
+        "blob/c5eaa104fbdfe22b780507f5378b5ca4cc9dd983.nq.gz",
+        "blob/96c88f3e70a60b85ecea6c9110fae2943240be29.nq.gz",
+        "blob/683c4aff06c57ad5d39ab799159dd3cf8ae9a38e.nq.gz",
+        "blob/257ebc437e0a6295cf59b0914aff9cfefc214290.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz"
+}
